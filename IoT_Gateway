@@ -1,0 +1,18 @@
+# Install required libraries to the system with apt:
+sudo apt install python3-dev python3-pip libglib2.0-dev git
+
+# Download repository from Github:
+git clone https://github.com/thingsboard/thingsboard-gateway.git
+
+# Move into downloaded directory:
+cd thingsboard-gateway
+
+# Install python module with setup.py script:
+python3 setup.py install
+
+# Create “logs” folder:
+mkdir logs
+
+# Configure gateway to work with your instance of ThingsBoard platform.
+# Run gateway, to check installation result:
+python3 ./thingsboard_gateway/tb_gateway.py

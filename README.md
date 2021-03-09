@@ -11,4 +11,4 @@ https://thingsboard.io/docs/iot-gateway/install/source-installation/
 Code for Connector JSON configuration is taken from here:
 https://thingsboard.io/docs/iot-gateway/config/mqtt/
 
-![image](https://user-images.githubusercontent.com/75616258/110467269-1a26b380-80d7-11eb-90bf-cba0ba168f74.png)
+![image](https://user-images.githubusercontent.com/75616258/110467542-71c51f00-80d7-11eb-9b5d-93a57d37d283.png)

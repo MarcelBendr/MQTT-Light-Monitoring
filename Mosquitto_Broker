@@ -1,6 +1,7 @@
 # Install the mosquitto Broker via apt
 sudo apt install mosquitto mosquitto-clients
 
+# Reboot your system. After reboot, type:
 sudo systemctl enable mosquitto
 
 # Check functionality of the Broker

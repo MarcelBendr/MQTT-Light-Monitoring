@@ -1,0 +1,15 @@
+# Install the mosquitto Broker via apt
+sudo apt install mosquitto mosquitto-clients
+
+sudo systemctl enable mosquitto
+
+# Check functionality of the Broker
+sudo systemctl status mosquitto
+
+# In order to subscribe to an (existing) topic, follow this command:
+mosquitto_sub -h localhost -t "test/message"
+
+# Alternatively, to publish a message via a topic, use this command:
+mosquitto_pub -h localhost -t "test/message" -m "Hello, world"
+
+# Notice, that you might want to define a more specific topic and message content
